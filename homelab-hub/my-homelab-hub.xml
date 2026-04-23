@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>homelab-hub</Name>
+  <Repository>raidowl/homelab-hub:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <ReadMe/>
+  <Overview>A self-hosted web application for managing and visualizing home lab infrastructure. Track hardware, virtual machines, applications, storage, networks, and more &#x2014; all in one place.</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://cdn-icons-png.flaticon.com/512/1828/1828791.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1776888885</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="appdata" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/homelab-hub</Config>
+  <Config Name="WebUI Port" Target="8000" Default="8000" Mode="tcp" Description="This is the port for the Web UI for the application" Type="Port" Display="always" Required="false" Mask="false">8003</Config>
+  <TailscaleStateDir/>
+</Container>
