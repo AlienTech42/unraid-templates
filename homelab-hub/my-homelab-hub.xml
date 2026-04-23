@@ -23,6 +23,6 @@
   <DonateLink/>
   <Requires/>
   <Config Name="appdata" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/homelab-hub</Config>
-  <Config Name="WebUI Port" Target="8000" Default="8000" Mode="tcp" Description="This is the port for the Web UI for the application" Type="Port" Display="always" Required="false" Mask="false">8003</Config>
+  <Config Name="WebUI Port" Target="8000" Default="8000" Mode="tcp" Description="This is the port for the Web UI for the application" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
   <TailscaleStateDir/>
 </Container>
